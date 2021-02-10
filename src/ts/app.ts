@@ -9,3 +9,9 @@ cart.add(new Book(1002, 'War and Piece', 'Leo Tolstoy', 2000, 1225));
 cart.add(new MusicAlbum(1008, 'Meteora', 'Linkin Park', 900));
 
 console.log(cart.items);
+
+cart.remove(1002);
+console.log(cart.items)
+
+console.log(cart.sum())
+console.log(cart.sumWithDiscount(10))
